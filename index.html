@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/livro.ico" type="image/x-icon" />
+    <title>Cronograma de Estudos</title>
+    <style>
+      body {
+        background: #586ba4;
+        font-family: "Oswald", sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 1.5em;
+      }
+      caption {
+        font-weight: bolder;
+        font-size: 1.4em;
+        padding: 5px;
+      }
+      table {
+        width: 100%;
+      }
+
+      thead > tr {
+        background-color: #b9b8d3;
+      }
+
+      th {
+        text-align: center;
+      }
+      tr,
+      td {
+        width: 120px;
+        height: 40px;
+        /* border: 1px solid black;
+            border-collapse: collapse; */
+        text-align: left;
+      }
+
+      .hours {
+        text-align: center;
+      }
+      .title-1 {
+        text-align: center;
+        font-weight: 600;
+        width: 10px;
+      }
+      footer {
+        text-align: center;
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Plano de Estudos</h1>
+      <img src="images/image01.png" alt="cronograma" style="max-width: 300px" />
+    </header>
+
+    <section>
+      <table>
+        <colgroup>
+          <col span="1" style="background-color: #759fbc"/>
+          <col span="9" style="background-color: #90c3c8"/>
+        </colgroup>
+        <caption>
+          CRONOGRAMA
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="2">HORÁRIOS</th>
+            <th>SEGUNDA</th>
+            <th>TERÇA</th>
+            <th>QUARTA</th>
+            <th>QUINTA</th>
+            <th>SEXTA</th>
+            <th>SÁBADO</th>
+            <th>DOMINGO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="title-1" rowspan="3">MANHÃ</td>
+            <td class="hours">06:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hours">08:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hours">10:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td class="title-1" rowspan="3">TARDE</td>
+            <td class="hours">14:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hours">16:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hours">18:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="title-1" rowspan="2">NOITE</td>
+            <td class="hours">20:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="hours">22:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="title-1" colspan="9">FOCO NOS ESTUDOS!</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <footer>
+      <p>Desenvolvido por &copy;<strong>rafa-reis</strong></p>
+    </footer>
+  </body>
+</html>
